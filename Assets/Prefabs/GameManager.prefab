@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2828585608626672937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2828585608626672942}
+  - component: {fileID: 2828585608626672943}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2828585608626672942
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2828585608626672937}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2828585608626672943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2828585608626672937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1b11d9cc93dd4c49a37ec77139509b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemys:
+  - {fileID: 9053922821584702347, guid: 29cbb58e5890e4e43a7c5f2da36fa62b, type: 3}
+  - {fileID: 8595283721404292201, guid: 1f679ba8e55a90142ba333e4c4dd2261, type: 3}
+  - {fileID: 1063764539161761985, guid: cfa571a69215fb74cac8ef31b40df0ea, type: 3}
+  - {fileID: 527159408200743762, guid: a3f0c9d9fdbe6e34eb765ca3902733a4, type: 3}
+  createPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  createTime: 2
+  changeCreateTimeRate: 0.9
+  changeCreateTimeDelay: 10
+  pickUps:
+  - {fileID: 6679192351783849231, guid: 9fa0c87d022be3347b474e585b88a8de, type: 3}
+  - {fileID: 1810788727950844434, guid: bf26e3f72792cae4f903ff4b75248f8e, type: 3}
+  - {fileID: 628903269935259152, guid: 3d9c129982c83ac4aae5b3ddd3a336c7, type: 3}
+  pickUpCoeff: 7
+  pickUpCreateTime: 5
